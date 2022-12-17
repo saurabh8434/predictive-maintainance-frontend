@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>BECOME A MEMBER</h1>
+    <form action="#" id = "form">
+    <div>
+        <input type="text" class = "name" name = "myName" placeholder="First Name">
+        <input type="text" class = "name" name = "myName" placeholder="Last Name">
+    </div>
+    <div>
+        <input type="email" name = "email-id" id = "email-id" placeholder = "Email Address">
+    </div>
+    <div>
+        <input type="tel" name = "mobile" id = "mobile" placeholder = "Contact No." pattern="[0-9]{10}">
+    </div>
+    <div>
+        <input type="password" name = "password" id = "password" placeholder="Enter password">
+    </div>
+    <div>
+        <input type="password" name = "confirm-password" id = "confirm-password" placeholder="Confirm entered password">
+    </div>
+    <div>
+        <textarea name="address" id="address" cols="50" rows="2" placeholder="Full Address"></textarea>
+    </div>
+    <div id="gender">
+        Gender : Male <input type="radio" name = "myGender"> Female <input type="radio" name = "myGender"> Other <input type="radio" name = "myGender">
+    </div>
+    <div id = "button">
+        <input type="submit" id="submit-button" value = "Join Us">
+        <input type="reset" id="reset-button" value = "Reset Input">
+    </div>
+    </form>
+
+    <div id = "log_in_key">
+        Already a member? <a href="login_page.html" target="_blank">Sign In</a>
+    </div>
+</body>
+</html>

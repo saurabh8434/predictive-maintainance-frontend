@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg2.jpg)no-repeat center/cover;
+    height: 100vh;
+}
+
+h1{
+    padding: 50px 85px;
+    color: aquamarine;
+}
+
+input{
+    margin: 13px 21px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#email-id, #mobile, #password, #confirm-password{
+    padding: 9px 145px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#address{
+    margin: 10px 21px;
+    padding: 3px 31px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#gender{
+    padding: 2px 45px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#button{
+    padding: 14px 87px;
+    
+}
+
+#submit-button{
+    padding: 8px 30px;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+}
+
+#submit-button:hover, #reset-button:hover{
+    cursor: pointer;
+}
+
+#reset-button{
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+}
+
+#log_in_key{
+    padding: 0px 147px;
+}
