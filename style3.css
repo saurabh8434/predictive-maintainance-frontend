@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 49px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+#profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 0px -19px;
+}
+
+#profile h3{
+    padding: 5px 25px;
+    font-size: 20px;
+}
+
+#logo-img{
+    height: 30px;
+    width: 34px;
+    margin: 22px 11px;
+}
+
+#search-logo{
+    height: 15px;
+}
+
+#searchbar{
+    /* border: 2px solid black; */
+    padding: 2px 552px;
+    margin: 5px 57px;
+    text-align: left;
+    background-color: #f5f5f5;
+    height: 30px;
+}
+
+#body-part::before{
+    content : "";
+    position: absolute;
+    background: url(bg3.jpg)no-repeat center/cover;
+    height: 664px;
+    width: 100vw;
+    z-index: -1;
+}
+
+#left-part{
+    float: left;
+    width: 15%;
+    /* border: 2px solid red; */
+}
+
+#profile-img1{
+    height: 160px;
+    width: 160px;
+    border-radius: 120px;
+    padding: 27px 27px;
+}
+
+#edit-photo{
+    margin: 0px 41px;
+    padding: 5px 38px;
+}
+
+#edit-profile{
+    margin: 65px 41px;
+    padding: 5px 38px;
+}
+
+#change-cred{
+    margin: 20px 39px;
+    padding: 5px 31px;
+}
+
+#logout{
+    margin: 72px 50px;
+    padding: 11px 43px;
+    background-color: rgb(237, 56, 98);
+    color: white;
+}
+
+#right-part{
+    /* border: 2px solid black; */
+    float: right;
+    width: 84%;
+}
+
+#right-part div{
+    padding: 0px 17px;
+    margin: 71px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
